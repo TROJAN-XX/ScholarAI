@@ -1,75 +1,71 @@
-# React + TypeScript + Vite
+# ScholarAI Frontend Client
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is the frontend dashboard of ScholarAI, built with **React**, **TypeScript**, **Tailwind CSS**, and **React Hook Form**. It collects student profiles through a sleek form and queries the matching API, rendering recommendations with custom compatibility graphs and AI justifications.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+1. **Multi-Section Profile Form**: Divides inputs into logical blocks (Personal, Academic, Financial, and Special Notes) with instant validation handled by **Zod** and **React Hook Form**.
+2. **Dynamic UI Styling**: Uses premium gradients and states to represent match compatibility. High match scores (>90%) are styled with emerald highlights, moderate scores with indigo, and others with amber.
+3. **ScholarAI AI Match Card**: Highlights custom compatibility insights returned by Gemini AI to show students exactly *why* they qualify.
+4. **Environment Configurations**: Automatically pulls connection points from `.env` config variables.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
-
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+## Directory Structure
 
 ```
-
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-
+frontend/
+├── src/
+│   ├── components/
+│   │   ├── common/             # Reusable UI controls (Input, Select, Button, etc.)
+│   │   ├── form/               # Profile form sectional sections
+│   │   └── results/            # (Placeholder/Cleaned up)
+│   ├── constants/              # Select dropdown constants (states, courses, categories)
+│   ├── pages/
+│   │   ├── Home.tsx            # Home page containing the profile form
+│   │   └── Result.tsx          # Matched recommendations dashboard view
+│   ├── types/
+│   │   └── student.ts          # TypeScript type definitions
+│   ├── validation/
+│   │   └── studentSchema.ts    # Frontend Zod validation schema
+│   ├── App.tsx                 # Core layout and view state manager
+│   ├── main.tsx                # React app entry point
+│   ├── index.css               # Core CSS and Tailwind imports
+│   └── App.css                 # Custom form styling rules
+├── public/                     # Static client-side assets
+├── .env                        # Local configs (VITE_API_URL settings)
+├── .env.example                # Env template file
+├── vite.config.ts              # Vite compiler configurations
+└── package.json                # Fronted dependencies and start scripts
 ```
+
+---
+
+## Setup Instructions
+
+### 1. Prerequisites
+Ensure you have [Node.js](https://nodejs.org/) installed.
+
+### 2. Configure API Endpoint
+Copy `.env.example` to `.env`:
+```bash
+cp .env.example .env
+```
+Ensure `VITE_API_URL` points to your running backend (e.g., `http://localhost:5000/api`).
+
+### 3. Install Dependencies
+```bash
+npm install
+```
+
+### 4. Run Development Client
+```bash
+npm run dev
+```
+Open [http://localhost:5173/](http://localhost:5173/) in your web browser.
+
+### 5. Build for Production
+```bash
+npm run build
+```
+This compiles the application assets into `./dist` ready for static hosting. Preview the build with `npm run preview`.

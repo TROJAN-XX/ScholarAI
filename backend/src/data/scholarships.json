@@ -1,0 +1,280 @@
+[
+  {
+    "id": "SCH001",
+    "displayName": "Central Sector Scholarship",
+    "name": "PM-USP Central Sector Scheme of Scholarship for College and University Students",
+    "provider": "Department of Higher Education",
+    "providerType": "Ministry",
+    "source": {
+      "name": "National Scholarship Portal",
+      "url": "https://scholarships.gov.in"
+    },
+    "lastVerified": "2026-07-18",
+    "status": "Active",
+    "level": "UG",
+    "description": "Financial assistance to meritorious students from low-income families to meet day-to-day expenses while pursuing higher education.",
+    "benefit": {
+      "amount": 12000,
+      "currency": "INR",
+      "frequency": "Yearly"
+    },
+    "deadline": {
+      "type": "Annual",
+      "month": "October",
+      "day": 31
+    },
+    "eligibility": {
+      "categories": ["General", "SC", "ST", "OBC", "EWS", "Minority"],
+      "states": ["ALL"],
+      "gender": ["ALL"],
+      "courseLevels": ["UG", "PG"],
+      "courseTypes": ["Regular"],
+      "maxIncome": 450000,
+      "minMarks": 80,
+      "disability": false,
+      "specialConditions": "Must be above the 80th percentile of successful candidates in the relevant stream from respective Board of Examination."
+    },
+    "documentsRequired": ["Aadhaar Card", "Income Certificate", "12th Marksheet", "Bonafide Certificate", "Bank Passbook"],
+    "tags": ["Merit", "Central Government", "Undergraduate"],
+    "keywords": ["merit", "central", "ug", "pg", "regular", "moe"],
+    "priority": 10,
+    "baseScore": 100,
+    "competition": "High",
+    "aiHints": {
+      "importance": 10,
+      "reasoningFocus": ["merit", "income", "courseTypes"]
+    },
+    "applyLink": "https://scholarships.gov.in"
+  },
+  {
+    "id": "SCH002",
+    "displayName": "AICTE Pragati Degree",
+    "name": "AICTE Pragati Scholarship Scheme for Girl Students (Technical Degree)",
+    "provider": "All India Council for Technical Education",
+    "providerType": "AICTE",
+    "source": {
+      "name": "National Scholarship Portal",
+      "url": "https://scholarships.gov.in"
+    },
+    "lastVerified": "2026-07-18",
+    "status": "Active",
+    "level": "UG",
+    "description": "Empowers girls pursuing technical graduation by covering tuition and other educational advancement expenses.",
+    "benefit": {
+      "amount": 50000,
+      "currency": "INR",
+      "frequency": "Yearly"
+    },
+    "deadline": {
+      "type": "Annual",
+      "month": "October",
+      "day": 31
+    },
+    "eligibility": {
+      "categories": ["General", "SC", "ST", "OBC", "EWS", "Minority"],
+      "states": ["ALL"],
+      "gender": ["Female"],
+      "courseLevels": ["UG"],
+      "courseTypes": ["Engineering"],
+      "maxIncome": 800000,
+      "minMarks": null,
+      "disability": false,
+      "specialConditions": "Maximum 2 girl children per family are eligible. Admitted to 1st year degree or 2nd year lateral entry in AICTE institution."
+    },
+    "documentsRequired": ["Aadhaar Card", "Income Certificate", "Admission Letter", "Fee Receipt", "10th Marksheet", "12th Marksheet", "Passport Photo"],
+    "tags": ["Girls", "Technical", "Engineering"],
+    "keywords": ["girls", "technical", "engineering", "ug", "aicte"],
+    "priority": 9,
+    "baseScore": 95,
+    "competition": "Medium",
+    "aiHints": {
+      "importance": 9,
+      "reasoningFocus": ["gender", "keywords", "income"]
+    },
+    "applyLink": "https://scholarships.gov.in"
+  },
+  {
+    "id": "SCH003",
+    "displayName": "AICTE Saksham Degree",
+    "name": "AICTE Saksham Scholarship Scheme for Specially Abled Students (Technical Degree)",
+    "provider": "All India Council for Technical Education",
+    "providerType": "AICTE",
+    "source": {
+      "name": "National Scholarship Portal",
+      "url": "https://scholarships.gov.in"
+    },
+    "lastVerified": "2026-07-18",
+    "status": "Active",
+    "level": "UG",
+    "description": "Supports specially-abled students to mitigate financial burdens while completing professional degree programs.",
+    "benefit": {
+      "amount": 50000,
+      "currency": "INR",
+      "frequency": "Yearly"
+    },
+    "deadline": {
+      "type": "Annual",
+      "month": "October",
+      "day": 31
+    },
+    "eligibility": {
+      "categories": ["PwD"],
+      "states": ["ALL"],
+      "gender": ["ALL"],
+      "courseLevels": ["UG"],
+      "courseTypes": ["Engineering"],
+      "maxIncome": 800000,
+      "minMarks": null,
+      "disability": true,
+      "specialConditions": "Disability degree must not be less than 40%. Must be enrolled in an AICTE approved technical institution."
+    },
+    "documentsRequired": ["Aadhaar Card", "Income Certificate", "Disability Certificate", "Admission Letter", "Fee Receipt", "10th Marksheet"],
+    "tags": ["Disability", "Technical", "Specially Abled"],
+    "keywords": ["pwd", "technical", "engineering", "disability", "aicte"],
+    "priority": 9,
+    "baseScore": 95,
+    "competition": "Low",
+    "aiHints": {
+      "importance": 9,
+      "reasoningFocus": ["disability", "income", "keywords"]
+    },
+    "applyLink": "https://scholarships.gov.in"
+  },
+  {
+    "id": "SCH004",
+    "displayName": "UGC Ishan Uday",
+    "name": "UGC Ishan Uday Special Scholarship Scheme for North Eastern Region",
+    "provider": "University Grants Commission",
+    "providerType": "UGC",
+    "source": {
+      "name": "National Scholarship Portal",
+      "url": "https://scholarships.gov.in"
+    },
+    "lastVerified": "2026-07-18",
+    "status": "Active",
+    "level": "UG",
+    "description": "Promotes higher education and builds the Gross Enrolment Ratio across the North Eastern Region states.",
+    "benefit": {
+      "amount": 64800,
+      "currency": "INR",
+      "frequency": "Yearly"
+    },
+    "deadline": {
+      "type": "Unknown",
+      "month": "",
+      "day": 0
+    },
+    "eligibility": {
+      "categories": ["General", "SC", "ST", "OBC", "EWS", "Minority"],
+      "states": ["ALL"],
+      "gender": ["ALL"],
+      "courseLevels": ["UG"],
+      "courseTypes": ["Any"],
+      "maxIncome": 450000,
+      "minMarks": null,
+      "disability": false,
+      "specialConditions": "Must hold a structural domicile of NER states (Assam, Arunachal, Manipur, Meghalaya, Mizoram, Nagaland, Sikkim, Tripura)."
+    },
+    "documentsRequired": ["Aadhaar Card", "Income Certificate", "Residence Certificate", "Bonafide Certificate", "12th Marksheet"],
+    "tags": ["NER", "Regional", "Undergraduate"],
+    "keywords": ["ner", "north-east", "ug", "general", "ugc"],
+    "priority": 9,
+    "baseScore": 90,
+    "competition": "Medium",
+    "aiHints": {
+      "importance": 8,
+      "reasoningFocus": ["specialConditions", "income"]
+    },
+    "applyLink": "https://scholarships.gov.in"
+  },
+  {
+    "id": "SCH005",
+    "displayName": "TN First Graduate",
+    "name": "Tamil Nadu First Graduate Scholarship",
+    "provider": "Directorate of Technical Education",
+    "providerType": "State Government",
+    "source": {
+      "name": "DoTE Tamil Nadu",
+      "url": "https://tndte.gov.in"
+    },
+    "lastVerified": "2026-07-18",
+    "status": "Active",
+    "level": "UG",
+    "description": "Tuition fee waiver for students who are the first in their immediate family to clear professional undergraduate graduation courses.",
+    "benefit": {
+      "amount": 25000,
+      "currency": "INR",
+      "frequency": "Yearly"
+    },
+    "deadline": {
+      "type": "EventDriven",
+      "month": "August",
+      "day": 15
+    },
+    "eligibility": {
+      "categories": ["General", "SC", "ST", "OBC", "EWS", "Minority"],
+      "states": ["Tamil Nadu"],
+      "gender": ["ALL"],
+      "courseLevels": ["UG"],
+      "courseTypes": ["Engineering", "Medical"],
+      "maxIncome": null,
+      "minMarks": null,
+      "disability": false,
+      "specialConditions": "No other immediate family members should be graduates. Must obtain seat clearance through single-window structural counseling channels."
+    },
+    "documentsRequired": ["Aadhaar Card", "Community Certificate", "Residence Certificate", "Bonafide Certificate", "12th Marksheet"],
+    "tags": ["First Graduate", "State Scheme", "Fee Waiver"],
+    "keywords": ["tn", "first-graduate", "engineering", "medical", "tamil-nadu"],
+    "priority": 8,
+    "baseScore": 85,
+    "competition": "Medium",
+    "aiHints": {
+      "importance": 10,
+      "reasoningFocus": ["states", "specialConditions"]
+    },
+    "applyLink": "https://tndte.gov.in"
+  },
+  {
+    "id": "SCH006",
+    "displayName": "Karnataka SSP Scholarship",
+    "name": "State Scholarship Portal Post-Matric Scholarship Karnataka",
+    "provider": "Government of Karnataka",
+    "providerType": "State Government",
+    "source": {
+      "name": "SSP Karnataka Portal",
+      "url": "https://karnataka.gov.in"
+    },
+    "lastVerified": "2026-07-18",
+    "status": "Active",
+    "level": "UG",
+    "description": "Unified electronic system driving educational fund tracking for marginalized student ecosystems situated inside Karnataka boundaries.",
+    "benefit": {
+      "amount": 10000,
+      "currency": "INR",
+      "frequency": "Yearly"
+    },
+    "deadline": {
+      "type": "Annual",
+      "month": "November",
+      "day": 15
+    },
+    "eligibility": {
+      "categories": ["SC", "ST", "OBC", "Minority"],
+      "states": ["Karnataka"],
+      "gender": ["ALL"],
+      "courseLevels": ["UG", "PG", "PhD"],
+      "courseTypes": ["Any"],
+      "maxIncome": 250000,
+      "minMarks": null,
+      "disability": false,
+      "specialConditions": "Must hold an active electronic Kutumba ID profile tracking matrix alignment parameters within the regional database system."
+    },
+    "documentsRequired": ["Aadhaar Card", "Income Certificate", "Community Certificate", "Fee Receipt", "Latest Semester Marksheet"],
+    "tags": ["State Scheme", "Karnataka", "Post-Matric"],
+    "keywords": ["karnataka", "ssp", "sc", "st", "obc", "state"],
+    "priority": 8,
+    "baseScore": 85,
+    "competition": "Medium",
+    "aiHints": {
+      "importance": 8,
+"reasoningFocus": ["states", "categories", "income"]},"applyLink": "karnataka.gov.in"},{"id": "SCH007","displayName": "Reliance Foundation Scholarship","name": "Reliance Foundation Undergraduate Scholarship Scheme","provider": "Reliance Foundation","providerType": "Foundation","source": {"name": "Reliance Foundation Portal","url": "reliancefoundation.org"},"lastVerified": "2026-07-18","status": "Active","level": "UG","description": "Supports academic acceleration for high-caliber students pursuing cross-functional undergraduate training programs nationwide.","benefit": {"amount": 200000,"currency": "INR","frequency": "FullCourse"},"deadline": {"type": "Annual","month": "October","day": 15},"eligibility": {"categories": ["General", "SC", "ST", "OBC", "EWS", "Minority"],"states": ["ALL"],"gender": ["ALL"],"courseLevels": ["UG"],"courseTypes": ["Any"],"maxIncome": 1500000,"minMarks": 60,"disability": false,"specialConditions": "Mandatory clearance requirement for custom online systematic aptitude evaluation assessments."},"documentsRequired": ["Aadhaar Card", "Income Certificate", "12th Marksheet", "Admission Letter", "Passport Photo"],"tags": ["Private", "High Value", "Merit"],"keywords": ["private", "merit", "reliance", "high-value", "csr"],"priority": 7,"baseScore": 80,"competition": "High","aiHints": {"importance": 9,"reasoningFocus": ["minMarks", "income"]},"applyLink": "reliancefoundation.org"},{"id": "SCH008","displayName": "Kotak Kanya Scholarship","name": "Kotak Kanya Scholarship Program","provider": "Kotak Education Foundation","providerType": "Corporate CSR","source": {"name": "Kotak Education Foundation","url": "kotakeducation.org"},"lastVerified": "2026-07-18","status": "Active","level": "UG","description": "Tailored investment system tracking female performance pipelines entering top-tier institutional validation tracks.","benefit": {"amount": 150000,"currency": "INR","frequency": "Yearly"},"deadline": {"type": "Annual","month": "September","day": 30},"eligibility": {"categories": ["General", "SC", "ST", "OBC", "EWS", "Minority"],"states": ["ALL"],"gender": ["Female"],"courseLevels": ["UG"],"courseTypes": ["Engineering", "Medical", "Law", "Management"],"maxIncome": 600000,"minMarks": 85,"disability": false,"specialConditions": "Must pursue professional degrees like Engineering, MBBS, Architecture, Design, or Integrated LLB from recognized institutes."},"documentsRequired": ["Aadhaar Card", "Income Certificate", "12th Marksheet", "Admission Letter", "Fee Receipt", "Passport Photo"],"tags": ["Girls", "Corporate CSR", "Professional"],"keywords": ["girls", "corporate", "merit", "engineering", "medical", "kotak"],"priority": 7,"baseScore": 80,"competition": "High","aiHints": {"importance": 10,"reasoningFocus": ["gender", "minMarks", "income", "keywords"]},"applyLink": "kotakeducation.org"},{"id": "SCH009","displayName": "Tata Capital Pankh","name": "Tata Capital Pankh Scholarship Program","provider": "Tata Capital","providerType": "Corporate CSR","source": {"name": "Tata Capital Hub","url": "tatacapital.com"},"lastVerified": "2026-07-18","status": "Active","level": "UG","description": "Financial system providing strategic fee coverage buffers to economically weaker sections.","benefit": {"amount": 50000,"currency": "INR","frequency": "Yearly"},"deadline": {"type": "Annual","month": "November","day": 10},"eligibility": {"categories": ["General", "SC", "ST", "OBC", "EWS", "Minority"],"states": ["ALL"],"gender": ["ALL"],"courseLevels": ["UG", "Diploma"],"courseTypes": ["Any"],"maxIncome": 400000,"minMarks": 60,"disability": false,"specialConditions": "Valid enrollment standing inside standard undergraduate degree, diploma, or polytechnic tracks required."},"documentsRequired": ["Aadhaar Card", "Income Certificate", "Latest Semester Marksheet", "Fee Receipt"],"tags": ["CSR", "Tata", "EWS Assistance"],"keywords": ["tata", "csr", "ews", "polytechnic", "diploma"],"priority": 7,"baseScore": 75,"competition": "Medium","aiHints": {"importance": 7,"reasoningFocus": ["income", "minMarks"]},"applyLink": "tatacapital.com"},{"id": "SCH010","displayName": "HDFC Parivartan","name": "HDFC Bank Parivartan Badhte Kadam Scholarship","provider": "HDFC Bank","providerType": "Corporate CSR","source": {"name": "HDFC Portal","url": "hdfcbank.com"},"lastVerified": "2026-07-18","status": "Active","level": "UG","description": "Targeted crisis support mechanisms protecting active educational enrollment metrics when financial shocks arrive.","benefit": {"amount": 75000,"currency": "INR","frequency": "Yearly"},"deadline": {"type": "Annual","month": "December","day": 15},"eligibility": {"categories": ["General", "SC", "ST", "OBC", "EWS", "Minority"],"states": ["ALL"],"gender": ["ALL"],"courseLevels": ["UG", "PG"],"courseTypes": ["Any"],"maxIncome": 600000,"minMarks": 70,"disability": false,"specialConditions": "Structural screening preference allocated to candidates undergoing critical life/family structural crisis metrics."},"documentsRequired": ["Aadhaar Card", "Income Certificate", "Latest Semester Marksheet", "Admission Letter", "Bank Passbook"],"tags": ["Crisis Support", "Corporate CSR", "HDFC"],"keywords": ["hdfc", "csr", "crisis", "merit-cum-means"],"priority": 7,"baseScore": 78,"competition": "Medium","aiHints": {"importance": 8,"reasoningFocus": ["income", "minMarks", "specialConditions"]},"applyLink": "hdfcbank.com"}]
